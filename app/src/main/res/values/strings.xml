@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Sensor Playground</string>
+
+    <!-- Tabs -->
+    <string name="tab_orb">Orb</string>
+    <string name="tab_compass">Kompas</string>
+    <string name="tab_light">Cahaya</string>
+
+    <!-- Control Modes -->
+    <string name="mode_tilt">Tilt</string>
+    <string name="mode_gyro">Gyro</string>
+    <string name="mode_touch">Sentuh</string>
+
+    <!-- Light Modes (3 Modes) -->
+    <string name="light_mode_manual">Manual</string>
+    <string name="light_mode_realtime">Realtime</string>
+    <string name="light_mode_reactive">Tutup / Senter</string>
+
+    <!-- Control Instructions -->
+    <string name="instruction_tilt">Miringkan HP untuk menggerakkan orb</string>
+    <string name="instruction_gyro">Putar/rotasikan HP, orb mengikuti arah putaran</string>
+    <string name="instruction_touch">Seret orb dengan jari, lalu lepaskan untuk melempar</string>
+
+    <!-- Light Instructions -->
+    <string name="instruction_light_manual">Mode Manual: Pilih tema Terang atau Gelap secara langsung</string>
+    <string name="instruction_light_realtime">Mode Realtime: Mengikuti intensitas cahaya ambient secara kontinu</string>
+    <string name="instruction_light_reactive">Mode Reaktif: Tutup sensor -> GELAP, Senter/terangi sensor -> TERANG</string>
+
+    <string name="reactive_covered">🖐️ SENSOR TERTUTUP (MODE GELAP)</string>
+    <string name="reactive_shined">🔦 SENSOR DISENTER / TERANG (MODE TERANG)</string>
+
+    <!-- Sensor Statuses -->
+    <string name="status_active">Aktif</string>
+    <string name="status_unavailable">Tidak Tersedia</string>
+    <string name="status_paused">Di-pause</string>
+
+    <!-- Light Condition Labels -->
+    <string name="light_dark">Gelap (Night)</string>
+    <string name="light_normal">Normal (Indoor)</string>
+    <string name="light_bright">Sangat Terang (Outdoor)</string>
+
+    <!-- Controls in Tabs -->
+    <string name="settings_auto_theme">Auto Theme (Sensor Cahaya)</string>
+    <string name="settings_dark_mode_manual">Mode Gelap Manual</string>
+    <string name="settings_sound">Suara Tabrakan</string>
+    <string name="settings_vibration">Getaran Haptic</string>
+    <string name="settings_reduce_anim">Kurangi Animasi</string>
+    <string name="settings_debug_mode">Mode Debug Sensor</string>
+    <string name="settings_sensitivity">Sensitivitas Gerak</string>
+    <string name="settings_reset_orb">Reset Posisi Orb</string>
+    <string name="settings_calibrate_compass">Kalibrasi Kompas</string>
+    <string name="invert_axes">Balik arah (Invert Axes)</string>
+
+    <string name="vibration_test">Tes Getar</string>
+    <string name="vibration_unsupported">Perangkat ini tidak mendukung getar hardware</string>
+    <string name="gyro_unsupported_card">⚠️ Sensor Gyroscope tidak tersedia pada perangkat ini. Silakan pilih mode Tilt atau Sentuh.</string>
+    <string name="light_sim_label">Simulasi Cahaya (Manual Lux Slider)</string>
+    <string name="theme_status_dark">Gelap</string>
+    <string name="theme_status_light">Terang</string>
+
+    <!-- Dialogs & Warnings -->
+    <string name="calibration_title">Kalibrasi Kompas</string>
+    <string name="calibration_msg">Gerakkan HP Anda membentuk pola angka 8 di udara beberapa kali untuk mengkalibrasi sensor magnetik.</string>
+    <string name="calibration_low_accuracy">⚠️ Akurasi kompas rendah. Silakan lakukan kalibrasi angka 8.</string>
+    <string name="close">Tutup</string>
+</resources>
